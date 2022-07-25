@@ -1,0 +1,217 @@
+/*Estilos para todos los elementos*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+/*Fin de los estilos que aplican para todos los elementos*/
+
+/*Custom Propities*/
+:root{
+  /*Colores de Google*/
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #454e5243;
+  --color-red: #ff3e30;
+
+  /*Otros colores*/
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+}
+/*FIN de las Customs Propities*/
+
+
+/*Estilos para los elementos principales*/
+h1, h2, h3, h4, p, li, a, label, td, th, input{
+  font-family: sans-serif;
+}
+p, li, a{
+  color:#2d3436;
+}
+/*Fin de los estilos principales*/
+
+body{
+    background: var(--color-gray);
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+h1{
+    font-size: 25px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--color-white);
+}
+form{
+    display: flex;
+    flex-flow: wrap row;
+    background: var(--color-white);
+    max-width: 500px;
+    border-radius: 2px;
+    box-shadow: 2px 5px 10px rgba(10, 10, 10, .5);
+}
+label{
+    margin-top: 10px;
+    width: 80%;
+    color: #2d3436;
+}
+.message{
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+.mensajeError{
+    background: var(--color-red);
+    font-weight: 700;
+    color: var(--color-white);
+}
+.mensajeSucces{
+    background: var(--color-blue);
+    font-weight: 700;
+    color: var(--color-white);
+}
+.datoForm{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background: var(--color-white);
+}
+input{
+    width: 80%;
+    padding: 15px;
+}
+.boton{
+    font-weight: 700;
+    color: var(--color-white);
+    background: var(--color-blue);
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    border: none;
+}
+
+.boton input[type="submit"]:focus {
+	background: #094;
+}
+
+form ul{
+    width: 100%;
+}
+form ul li{
+    text-align: center;
+    padding: 10px;
+}
+form ul li a{
+    color: var(--color-blue); 
+}
+
+select{
+    width: 80%;
+    color: white;
+    border: none;
+    padding: 10px;
+    background: var(--color-blue);
+}
+
+.contenedor{
+    background: var(--color-white);
+    margin: auto;
+    max-width: 250px;
+}
+table{
+    border-collapse:collapse;
+    padding: 10px;
+}
+tr th{
+    padding: 5px;
+    color: white;
+    background: var(--color-blue);
+}
+
+tr td{
+    padding: 2px;
+}
+.centerText{
+    text-align: center;
+}
+
+nav{
+    background-color: #ffffff;
+    color: #176bef;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a{
+    color: #176bef;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+
+.titulo_ingreso{
+    text-align: center;
+    color: #2d3436;
+    font-size: 30px;
+    
+}
+.editar{
+    background-color: #176bef;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #bdbdbd;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.editar_letra{
+    color: antiquewhite;
+
+}
+
+.estados{
+    background-color: #ffffff;
+}
+
+.titulo_estados{
+    background-color: var(--color-blue);
+    color: #ffffff;
+}
+
+img{
+    width: 100%;
+}
+.content_home{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 85vh;
+}
+
+
+
+
+
+
